@@ -1,0 +1,51 @@
+GIT
+  remote: https://github.com/bibliotechy/local_playlist
+  revision: 42d59807530215bd75756d3c0fa53dc466d07023
+  specs:
+    local_playlist (0.1.0)
+      songkickr
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    backports (3.11.1)
+    coderay (1.1.2)
+    httparty (0.16.0)
+      multi_xml (>= 0.5.2)
+    method_source (0.9.0)
+    multi_json (1.13.1)
+    multi_xml (0.6.0)
+    mustermann (1.0.2)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    rack (2.0.4)
+    rack-protection (2.0.1)
+      rack
+    sinatra (2.0.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.1)
+      tilt (~> 2.0)
+    sinatra-contrib (2.0.1)
+      backports (>= 2.0)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.0.1)
+      sinatra (= 2.0.1)
+      tilt (>= 1.3, < 3)
+    songkickr (0.5.5)
+      httparty (>= 0.5.0)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  local_playlist!
+  pry
+  sinatra
+  sinatra-contrib
+
+BUNDLED WITH
+   1.16.1
